@@ -1,0 +1,116 @@
+19:118  0:143  Found UEFI Acpi 2.0 RSDP at 3A905000
+19:118  0:000  Saving ACPI tables from RSDP 3A905000 to EFI\CLOVER\ACPI\origin ...
+19:118  0:000   3A905000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:118  0:000    (Xsdt: 3A9050A8, Rsdt: 3A905028)
+19:118  0:000    3A9050A8: 'XSDT', 'MEGABOOK', Rev: 1, Len: 212
+19:118  0:000    3A905028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 124
+19:118  0:000    Tables in Xsdt: 22
+19:118  0:000    0. 3A92A768: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+19:118  0:000        (Dsdt: 3A905210, Facs: 3AE97F80, XDsdt: 3A905210, XFacs: 0)
+19:118  0:000        3A905210: 'DSDT', 'MEGABOOK', Rev: 2, Len: 152914
+19:121  0:002        3AE97F80: 'FACS', Ver: 2, Len: 64
+19:121  0:000    1. 3A92A878: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+19:121  0:000    2. 3A92A938: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+19:121  0:000    3. 3A92A980: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+19:121  0:000    4. 3A92AA20: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+19:121  0:000    5. 3A92AA60: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+19:121  0:000    6. 3A92AA98: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:121  0:000    7. 3A92AB30: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+19:121  0:000    8. 3A92AD78: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+19:121  0:000    9. 3A92D928: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+19:121  0:000    10. 3A92E510: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+19:121  0:000    11. 3A92E9B8: 'DBGP', '', Rev: 1, Len: 52
+19:121  0:000    12. 3A92E9F0: 'DBG2', '', Rev: 0, Len: 84
+19:121  0:000    13. 3A92EA48: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85
+19:121  0:000    14. 3A92EAA0: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+19:121  0:000    15. 3A92EC18: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21999
+19:121  0:000    16. 3A934208: 'UEFI', '', Rev: 1, Len: 66
+19:121  0:000    17. 3A934250: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+19:121  0:000    18. 3A9350C8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+19:121  0:000    19. 3A935168: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+19:121  0:000    20. 3A9351A0: 'SSDT', 'OptTabl', Rev: 1, Len: 6636
+19:121  0:000    21. 3A936B90: 'ASF!', ' HCG', Rev: 32, Len: 165
+19:121  0:000    Tables in Rsdt: 22
+19:121  0:000    0. 3A905188: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+19:121  0:000        (Dsdt: 3A905210, Facs: 3AE97F40)
+19:121  0:000        3A905210: 'DSDT', 'MEGABOOK', Rev: 2, Len: 152914
+19:123  0:002        3AE97F40: 'FACS', Ver: 0, Len: 64
+19:123  0:000    1. 3A92A878: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+19:123  0:000    2. 3A92A938: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+19:123  0:000    3. 3A92A980: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+19:123  0:000    4. 3A92AA20: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+19:123  0:000    5. 3A92AA60: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+19:123  0:000    6. 3A92AA98: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:123  0:000    7. 3A92AB30: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+19:123  0:000    8. 3A92AD78: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+19:123  0:000    9. 3A92D928: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+19:123  0:000    10. 3A92E510: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+19:123  0:000    11. 3A92E9B8: 'DBGP', '', Rev: 1, Len: 52
+19:123  0:000    12. 3A92E9F0: 'DBG2', '', Rev: 0, Len: 84
+19:123  0:000    13. 3A92EA48: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85
+19:123  0:000    14. 3A92EAA0: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+19:123  0:000    15. 3A92EC18: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21999
+19:123  0:000    16. 3A934208: 'UEFI', '', Rev: 1, Len: 66
+19:123  0:000    17. 3A934250: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+19:123  0:000    18. 3A9350C8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+19:123  0:000    19. 3A935168: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+19:123  0:000    20. 3A9351A0: 'SSDT', 'OptTabl', Rev: 1, Len: 6636
+19:123  0:000    21. 3A936B90: 'ASF!', ' HCG', Rev: 32, Len: 165
+19:123  0:000  Found UEFI Acpi 1.0 RSDP at 3A905000
+19:123  0:000  Printing ACPI tables from RSDP 3A905000 ...
+19:123  0:000   3A905000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:123  0:000    (Xsdt: 3A9050A8, Rsdt: 3A905028)
+19:123  0:000    3A9050A8: 'XSDT', 'MEGABOOK', Rev: 1, Len: 212
+19:123  0:000    3A905028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 124
+19:123  0:000    Tables in Xsdt: 22
+19:123  0:000    0. 3A92A768: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+19:123  0:000        (Dsdt: 3A905210, Facs: 3AE97F80, XDsdt: 3A905210, XFacs: 0)
+19:123  0:000        3A905210: 'DSDT', 'MEGABOOK', Rev: 2, Len: 152914
+19:125  0:002        3AE97F80: 'FACS', Ver: 2, Len: 64
+19:125  0:000    1. 3A92A878: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+19:125  0:000    2. 3A92A938: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+19:125  0:000    3. 3A92A980: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+19:125  0:000    4. 3A92AA20: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+19:125  0:000    5. 3A92AA60: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+19:125  0:000    6. 3A92AA98: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:125  0:000    7. 3A92AB30: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+19:125  0:000    8. 3A92AD78: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+19:125  0:000    9. 3A92D928: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+19:125  0:000    10. 3A92E510: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+19:125  0:000    11. 3A92E9B8: 'DBGP', '', Rev: 1, Len: 52
+19:125  0:000    12. 3A92E9F0: 'DBG2', '', Rev: 0, Len: 84
+19:125  0:000    13. 3A92EA48: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85
+19:125  0:000    14. 3A92EAA0: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+19:125  0:000    15. 3A92EC18: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21999
+19:125  0:000    16. 3A934208: 'UEFI', '', Rev: 1, Len: 66
+19:125  0:000    17. 3A934250: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+19:125  0:000    18. 3A9350C8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+19:125  0:000    19. 3A935168: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+19:125  0:000    20. 3A9351A0: 'SSDT', 'OptTabl', Rev: 1, Len: 6636
+19:125  0:000    21. 3A936B90: 'ASF!', ' HCG', Rev: 32, Len: 165
+19:125  0:000    Tables in Rsdt: 22
+19:125  0:000    0. 3A905188: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+19:125  0:000        (Dsdt: 3A905210, Facs: 3AE97F40)
+19:125  0:000        3A905210: 'DSDT', 'MEGABOOK', Rev: 2, Len: 152914
+19:128  0:002        3AE97F40: 'FACS', Ver: 0, Len: 64
+19:128  0:000    1. 3A92A878: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+19:128  0:000    2. 3A92A938: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+19:128  0:000    3. 3A92A980: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+19:128  0:000    4. 3A92AA20: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+19:128  0:000    5. 3A92AA60: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+19:128  0:000    6. 3A92AA98: 'LPIT', 'SKL', Rev: 1, Len: 148
+19:128  0:000    7. 3A92AB30: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+19:128  0:000    8. 3A92AD78: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+19:128  0:000    9. 3A92D928: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+19:128  0:000    10. 3A92E510: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+19:128  0:000    11. 3A92E9B8: 'DBGP', '', Rev: 1, Len: 52
+19:128  0:000    12. 3A92E9F0: 'DBG2', '', Rev: 0, Len: 84
+19:128  0:000    13. 3A92EA48: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85
+19:128  0:000    14. 3A92EAA0: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+19:128  0:000    15. 3A92EC18: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21999
+19:128  0:000    16. 3A934208: 'UEFI', '', Rev: 1, Len: 66
+19:128  0:000    17. 3A934250: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+19:128  0:000    18. 3A9350C8: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+19:128  0:000    19. 3A935168: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+19:128  0:000    20. 3A9351A0: 'SSDT', 'OptTabl', Rev: 1, Len: 6636
+19:128  0:000    21. 3A936B90: 'ASF!', ' HCG', Rev: 32, Len: 165
