@@ -48,6 +48,10 @@ DSDT打补丁测试不行。所以暂时使用ScreenShade
 使用Karabiner暂时解决（CMD和CON的切换）
 14.双系统时间相差问题。使用LoaclTimeToggle.pkg解决
 
+15. 双系统蓝牙配对问题
+   http://www.insanelymac.com/forum/topic/268837-dual-boot-bluetooth-pairing-solved/
+    修改LinkID使Mac下蓝牙鼠标正常配对。
+    
  
 
 
