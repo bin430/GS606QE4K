@@ -52,7 +52,8 @@ DSDT打补丁测试不行。所以暂时使用ScreenShade
    http://www.insanelymac.com/forum/topic/268837-dual-boot-bluetooth-pairing-solved/
     修改LinkID使Mac下蓝牙鼠标正常配对。
     
- 
+16. intel 睿频最优Smbios
+设置成17.1，勾选Mobile选项  
 
 
 
