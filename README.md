@@ -55,5 +55,26 @@ DSDT打补丁测试不行。所以暂时使用ScreenShade
 16. intel 睿频最优Smbios
 设置成17.1，勾选Mobile选项  
 
+17. 亮度调节
+    添加AppleBacklightInjector.kext，删除intelBacklight.kext。
+    在config.plist中添加
+    
+```
+<dict>
+	<key>Comment</key>
+	<string>change F%uT%04x to F%uTxxxx for AppleBacklightInjector.kext (credit RehabMan)</string>
+	<key>Disabled</key>
+	<false/>
+	<key>Find</key>
+	<data>RiV1VCUwNHgA</data>
+	<key>Name</key>
+	<string>com.apple.driver.AppleBacklight</string>
+	<key>Replace</key>
+	<data>RiV1VHh4eHgA</data>
+</dict>
+```    
+18. 增加睿频自动关闭
+![屏幕快照 2017-05-05 15.26.14](https://lh3.googleusercontent.com/-B0BzXCF4o4k/WQwpL_GNplI/AAAAAAAAAvQ/--K96HItaLEtSica9J-0bC39MhZA_2OtQCHM/I/%255BUNSET%255D)
+
 
 
