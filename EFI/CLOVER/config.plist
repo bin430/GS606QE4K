@@ -65,6 +65,8 @@
 			<dict>
 				<key>FixIPIC_0040</key>
 				<true/>
+				<key>FixLAN_2000</key>
+				<true/>
 				<key>FixShutdown_0004</key>
 				<true/>
 				<key>NewWay_80000000</key>
@@ -78,9 +80,13 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -88,9 +94,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUhDMQ==</data>
+					<data>
+					RUhDMQ==
+					</data>
 					<key>Replace</key>
-					<data>RUgwMQ==</data>
+					<data>
+					RUgwMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -98,9 +108,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUhDMg==</data>
+					<data>
+					RUhDMg==
+					</data>
 					<key>Replace</key>
-					<data>RUgwMg==</data>
+					<data>
+					RUgwMg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -108,9 +122,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SERBUw==</data>
+					<data>
+					SERBUw==
+					</data>
 					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>
+					SERFRg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -118,9 +136,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>
+					SEVDSQ==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -128,9 +150,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>TUVJXw==</data>
+					<data>
+					TUVJXw==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -152,7 +178,7 @@
 			<key>DropOem</key>
 			<true/>
 			<key>Generate</key>
-			<true/>
+			<false/>
 			<key>PluginType</key>
 			<integer>1</integer>
 		</dict>
@@ -186,7 +212,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 npci=0x2000 nv_disable=1 kext-dev-mode=1</string>
+		<string>arch=x86_64 dart=0 nv_disable=1 kext-dev-mode=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -206,6 +232,8 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>HWPEnable</key>
+		<true/>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -348,29 +376,37 @@
 				<key>Comment</key>
 				<string>Bypass ThunderBolt3 SkipEnumeration credit kid2010 implemented by syscl</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>VUiJ5UFXQVZBVUFUU0iB7DgB</data>
+				<data>
+				VUiJ5UFXQVZBVUFUU0iB7DgB
+				</data>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
 				<string>IOThunderboltFamily</string>
 				<key>Replace</key>
-				<data>VUiJ5THAXcNBVUFUU0iB7DgB</data>
+				<data>
+				VUiJ5THAXcNBVUFUU0iB7DgB
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>10.12.2 fudge USB 3.1 device ID</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>AIN9lBAPg1o=</data>
+				<data>
+				AIN9lBAPg1o=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>AIN9lB8Pg1o=</data>
+				<data>
+				AIN9lB8Pg1o=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -378,11 +414,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AAAIAAIAAACYAAAAAQUJAAAEAAA=</data>
+				<data>
+				AAAIAAIAAACYAAAAAQUJAAAEAAA=
+				</data>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AAAIAAAEAACYAAAAAQUJAAAEAAA=</data>
+				<data>
+				AAAIAAAEAACYAAAAAQUJAAAEAAA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -390,13 +430,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AQAAdSU=</data>
+				<data>
+				AQAAdSU=
+				</data>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
 				<string>IOGraphicsFamily</string>
 				<key>Replace</key>
-				<data>AQAA6yU=</data>
+				<data>
+				AQAA6yU=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -404,11 +448,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -416,13 +464,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SIX/dEdIiwc=</data>
+				<data>
+				SIX/dEdIiwc=
+				</data>
 				<key>MatchOS</key>
 				<string>10.11.x,10.12.x</string>
 				<key>Name</key>
 				<string>IOBluetoothFamily</string>
 				<key>Replace</key>
-				<data>Qb4PAAAA60Q=</data>
+				<data>
+				Qb4PAAAA60Q=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -430,13 +482,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>gflSqgAAdSk=</data>
+				<data>
+				gflSqgAAdSk=
+				</data>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
 				<string>AirPortBrcm4360</string>
 				<key>Replace</key>
-				<data>gflSqgAAZpA=</data>
+				<data>
+				gflSqgAAZpA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -444,13 +500,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>iUXIOcZ2UQ==</data>
+				<data>
+				iUXIOcZ2UQ==
+				</data>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>iUXIOcZ2UQ==</data>
+				<data>
+				iUXIOcZ2UQ==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -458,11 +518,15 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>QTnEdio=</data>
+				<data>
+				QTnEdio=
+				</data>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>QTnE6yo=</data>
+				<data>
+				QTnE6yo=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -470,11 +534,15 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>AQAAdRc=</data>
+				<data>
+				AQAAdRc=
+				</data>
 				<key>Name</key>
 				<string>IOGraphicsFamily</string>
 				<key>Replace</key>
-				<data>AQAA6xc=</data>
+				<data>
+				AQAA6xc=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -482,11 +550,15 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>AQMDAw==</data>
+				<data>
+				AQMDAw==
+				</data>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQMEAw==</data>
+				<data>
+				AQMEAw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -494,13 +566,17 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>g72M/v//EA==</data>
+				<data>
+				g72M/v//EA==
+				</data>
 				<key>MatchOS</key>
 				<string>10.11.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>g72M/v//FQ==</data>
+				<data>
+				g72M/v//FQ==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -508,13 +584,17 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>g72M/v//EA==</data>
+				<data>
+				g72M/v//EA==
+				</data>
 				<key>MatchOS</key>
 				<string>10.11.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>g72M/v//Gw==</data>
+				<data>
+				g72M/v//Gw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -522,13 +602,17 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>g710////EA==</data>
+				<data>
+				g710////EA==
+				</data>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>g710////FQ==</data>
+				<data>
+				g710////FQ==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -536,13 +620,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>g710////EA==</data>
+				<data>
+				g710////EA==
+				</data>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>g710////Gw==</data>
+				<data>
+				g710////Gw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -550,11 +638,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>RiV1VCUwNHgA</data>
+				<data>
+				RiV1VCUwNHgA
+				</data>
 				<key>Name</key>
 				<string>com.apple.driver.AppleBacklight</string>
 				<key>Replace</key>
-				<data>RiV1VHh4eHgA</data>
+				<data>
+				RiV1VHh4eHgA
+				</data>
 			</dict>
 		</array>
 	</dict>
@@ -572,21 +664,21 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM171.88Z.0105.B15.1612221002</string>
+		<string>MBP131.88Z.0205.B11.1612220123</string>
 		<key>Board-ID</key>
-		<string>Mac-B809C3757DA9BB8D</string>
+		<string>Mac-473D31EABEB93F9B</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
+		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x13</string>
+		<string>0x09</string>
 		<key>Family</key>
-		<string>iMac</string>
+		<string>MacBook Pro</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -594,11 +686,11 @@
 		<key>Mobile</key>
 		<true/>
 		<key>ProductName</key>
-		<string>iMac17,1</string>
+		<string>MacBookPro13,1</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for Skylake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02QMNHKH2YQ</string>
+		<string>C02SLHACGVC1</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>

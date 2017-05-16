@@ -35,11 +35,14 @@ ApplePS2SmartTouchPad.kext
 9. UHD屏幕驱动
 CoreDisplayFixup.kext
 Lilu.kext
-10. CPU睿频
-参照9550变频
-![屏幕快照 2017-04-27 上午11.33.07](https://lh3.googleusercontent.com/-6QT_pUZkw3I/WQNlQUu2xEI/AAAAAAAAAus/zkAz7bPP364YKNyQNJWM7m2MyC5JnXy-QCHM/I/%255BUNSET%255D)
+10. CPU睿频和多档位
+1. 10.12更换为MacBookPro13,1
+2. 安装HWPEnabler.kext
+3. 勾选HWPEnable
+![屏幕快照 2017-05-16 下午14.12.15 下午](https://lh3.googleusercontent.com/-vlJLQR_zyQw/WRqZD_U09BI/AAAAAAAAAvg/4p8LEFbOtfU3zGLrwSjekE7jRmSI6XaowCHM/I/%255BUNSET%255D)
+![屏幕快照 2017-05-16 下午14.14.51 下午](https://lh3.googleusercontent.com/--QCef5txW_o/WRqZIuyfXzI/AAAAAAAAAvk/ZrdzPzpSlzMRuptoOjrSSU-7LcbjXzzAgCHM/I/%255BUNSET%255D)
 
-![屏幕快照 2017-04-28 下午11.53.23](https://lh3.googleusercontent.com/-mDMsRST9cvI/WQNlgPWqpwI/AAAAAAAAAuw/SLy8J7j3cDMFWFrqjptRSJXS5_1kvwq7ACHM/I/%255BUNSET%255D)
+
 11. drivers64UEFI
 很重要，不然可能出现时不时进不了系统的故障。
 12. 亮度调节
