@@ -36,9 +36,9 @@ ApplePS2SmartTouchPad.kext
 CoreDisplayFixup.kext
 Lilu.kext
 10. CPU睿频和多档位
-1. 10.12更换为MacBookPro13,1
-2. 安装HWPEnabler.kext
-3. 勾选HWPEnable
+1 10.12更换为MacBookPro13,1
+2 安装HWPEnabler.kext
+3 勾选HWPEnable
 ![屏幕快照 2017-05-16 下午14.12.15 下午](https://lh3.googleusercontent.com/-vlJLQR_zyQw/WRqZD_U09BI/AAAAAAAAAvg/4p8LEFbOtfU3zGLrwSjekE7jRmSI6XaowCHM/I/%255BUNSET%255D)
 ![屏幕快照 2017-05-16 下午14.14.51 下午](https://lh3.googleusercontent.com/--QCef5txW_o/WRqZIuyfXzI/AAAAAAAAAvk/ZrdzPzpSlzMRuptoOjrSSU-7LcbjXzzAgCHM/I/%255BUNSET%255D)
 
